@@ -1,7 +1,7 @@
 <style>
 </style>
 <div id="idgeneral2"  class="col-6">
-<h2>Tus actividades</h2>
+<h3>Your activities</h3>
 <ul id="idLista" class="list-group">
 <?php
 $this->load->helper('url');
@@ -9,7 +9,7 @@ $this->load->helper('url');
 			<li class="list-group-item"> 
 				<?= $actividad->actividad; ?>
 				<a class="btn btn-outline-success" 
-        		href="<?php echo base_url()?>index.php/actividades/borrar/<?php echo $actividad->id ?>">Eliminar</a>		
+        		href="<?php echo base_url()?>index.php/actividades/borrar/<?php echo $actividad->id ?>">Delete</a>		
 			</li>	
 	<?php } ?>
 </ul>

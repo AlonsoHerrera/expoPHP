@@ -22,15 +22,13 @@ class Actividades extends CI_Controller {
 		function nuevo(){
 	    $this->load->view('Todolist/bienvenido');
 		$this->load->view('actividades/formulario');
-
+		
 	}
 		function recibirDatos(){
 			$datas = array(
 				'actividad' => $this->input->post('actividad')
 			);
 			$this->todolist_model->crearActividad($datas);
-
-
 			redirect('/actividades', 'refresh');
 	}
 	function borrar($id){

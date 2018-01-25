@@ -10,7 +10,7 @@
 </head>
 <style>
 	#x{
-	    background-image: url(https://image.freepik.com/free-vector/green-watercolor-background-design_1035-8379.jpg);
+	    background-image: url(http://www.thefinchgroup.com/wp-content/uploads/2015/08/Optional-backgroundD.jpg);
 	    background-position: center center;
 	    background-repeat: no-repeat;
  		background-attachment: fixed;
@@ -25,25 +25,32 @@
 	}
 	header{
 		padding-top: 30px; 
-		padding-bottom: 100px;
+		padding-bottom: 30px;
 	}
 	#idgeneral{
-		margin-left: 100px;
+		margin-left: 150px;
 		float: left;
 	}
 	#idgeneral2{
+		margin-right: 50px;
 		float: right;
 	}
 	#btns{
 		float: right;
 	}
+	#id{
+		height: 5px;
+	}
 </style>
 <header>
 	<div class="col col-lg-12">
-		<h1 class="text-center">CREA TU LISTA!</h1>
+
+		<h1 class="text-center">CreateYourList.com</h1>
+		<h5 class="text-center">Don't forget nothing!</h5>
+		<hr style="border-color:green;">
 	<div>
 </header>
-<body id="x">
+<body id="x" class="container-fluid">
 
 </body>
 </html>

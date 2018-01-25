@@ -4,16 +4,16 @@
 <?php 
 	$actividad = array(
 		'name'=>'actividad',
-		'placeholder'=> '   Escribe tu actividad'
+		'placeholder'=> '   Your activity'
 	);
 ?>
 <h3>
-<?= form_label('ACTIVIDAD: ','actividad') ?>
+<?= form_label('Add activity: ','actividad') ?>
 </h3>
 <?= form_input($actividad) ?>
 <br><br>
 <div id="btns">
-<?= form_submit('','Agregar') ?>
+<?= form_submit('','   Add   ') ?>
 </div>
 <?= form_close() ?>
 </div>
